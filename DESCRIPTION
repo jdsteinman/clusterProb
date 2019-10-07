@@ -1,0 +1,24 @@
+Package: clusterProb
+Type: Package
+Title: Draws a better heatmap
+Version: 0.1.0
+Author: John Steinman
+Maintainer: John Steinman <johnsteinman@utexas.edu>
+Description: Provides a confidence measure for unsupervised clustering results using 
+    a random forest model. ALso calculates feature importance for feature selection. Outputs
+    information in a heatmap.
+Depends: R (>= 3.5.0)
+Imports: 
+    caret,
+    randomForest,
+    stats,
+    ComplexHeatmap,
+    RColorBrewer,
+    circlize,
+    grid
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
